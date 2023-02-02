@@ -23,7 +23,8 @@
   "require": {
     "php": ">=7.0",
     "laravel/nova": "^4.1",
-    "nova-kit/nova-packages-tool": "^1.0.1"
+    "nova-kit/nova-packages-tool": "^1.0.1",
+    "outl1ne/nova-translations-loader": "dev-master"
   },
   "autoload": {
     "psr-4": {
@@ -51,6 +52,10 @@
     {
       "type": "composer",
       "url": "https://nova.laravel.com"
+    },
+    {
+      "url": "https://github.com/smart145/nova-translations-loader.git",
+      "type": "git"
     }
   ]
 }
